@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyQuiz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="overlay hide"></div>
+    <div class="loginForm hide">
+      <div class="cross">❌</div>
+
+      <h2 class="logfield">Login Form</h2>
+
+      <input
+        type="text"
+        placeholder="Enter First Name"
+        class="firstName"
+        required
+      />
+      <input
+        type="text"
+        placeholder="Enter Last Name"
+        class="lastName"
+        required
+      />
+
+      <button type="submit" class="submit">login</button>
+    </div>
+
+    <div class="container">
+        <img src="./asset/logo.png" alt="" />
+      <div class="logo">
+        <h1>Brain Quizzy</h1>
+      </div>
+      <div class="title">
+        <h3>A application for evaulate your technical knowledges.</h3>
+        <h4>
+          <ion-icon name="reader-outline"></ion-icon> Please select the question
+          and choose the correct answer carefully.
+        </h4>
+        <h4>
+          <ion-icon name="reader-outline"></ion-icon> You can skip any question.
+        </h4>
+        <h4>
+          <ion-icon name="reader-outline"></ion-icon> You should give input
+          between (1 - 4).
+        </h4>
+        <h4>
+          <ion-icon name="reader-outline"></ion-icon> You can't change your
+          answer after save.
+        </h4>
+        <h4><ion-icon name="reader-outline"></ion-icon> Good Luck.</h4>
+
+        <div class="req">
+          <small class="user"
+            >Welcome <span class="userN hide">Shykat</span></small
+          >
+
+          <!-- log buttons -->
+
+          <a class="logBtn" href="#">Login</a>
+        </div>
+      </div>
+
+      <hr class="fline" />
+
+      <!-- When user is not login -->
+      <div class="noQues">
+        <p>Please login for view the questions.</p>
+      </div>
+
+      <div class="questions hide">
+        <!-- Question----------------------------1 -->
+
+        <div class="ques q1">
+          <p>
+            1. <span class="ques1">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w1">Your ans:</small>
+            <small class="correct c1">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q1op1">C#</small>
+              <small class="q1op2">Java</small>
+              <small class="q1op3">Python</small>
+              <small class="q1op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp1"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt1">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------2 -->
+
+        <div class="ques q2">
+          <p>
+            2. <span class="ques2">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w2">Your ans:</small>
+            <small class="correct c2">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q2op1">C#</small>
+              <small class="q2op2">Java</small>
+              <small class="q2op3">Python</small>
+              <small class="q2op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp2"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt2">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------3 -->
+
+        <div class="ques q3">
+          <p>
+            3. <span class="ques3">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w3">Your ans:</small>
+            <small class="correct c3">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q3op1">C#</small>
+              <small class="q3op2">Java</small>
+              <small class="q3op3">Python</small>
+              <small class="q3op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp3"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt3">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------4 -->
+
+        <div class="ques q4">
+          <p>
+            4. <span class="ques4">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w4">Your ans:</small>
+            <small class="correct c4">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q4op1">C#</small>
+              <small class="q4op2">Java</small>
+              <small class="q4op3">Pythoq5n</small>
+              <small class="q4op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp4"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt4">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------5 -->
+
+        <div class="ques q5">
+          <p>
+            5. <span class="ques5">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w5">Your ans:</small>
+            <small class="correct c5">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q5op1">C#</small>
+              <small class="q5op2">Java</small>
+              <small class="q5op3">Python</small>
+              <small class="q5op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp5"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt5">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------6 -->
+
+        <div class="ques q6">
+          <p>
+            6. <span class="ques6">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w6">Your ans:</small>
+            <small class="correct c6">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q6op1">C#</small>
+              <small class="q6op2">Java</small>
+              <small class="q6op3">Python</small>
+              <small class="q6op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp6"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt6">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------7 -->
+
+        <div class="ques q7">
+          <p>
+            7. <span class="ques7">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w7">Your ans:</small>
+            <small class="correct c7">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q7op1">C#</small>
+              <small class="q7op2">Java</small>
+              <small class="q7op3">Python</small>
+              <small class="q7op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp7"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt7">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------8 -->
+
+        <div class="ques q8">
+          <p>
+            8. <span class="ques8">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w8">Your ans:</small>
+            <small class="correct c8">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q8op1">C#</small>
+              <small class="q8op2">Java</small>
+              <small class="q8op3">Python</small>
+              <small class="q8op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp8"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt8">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------9 -->
+
+        <div class="ques q9">
+          <p>
+            9. <span class="ques9">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w9">Your ans:</small>
+            <small class="correct c9">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q9op1">C#</small>
+              <small class="q9op2">Java</small>
+              <small class="q9op3">Python</small>
+              <small class="q9op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp9"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt9">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------10 -->
+
+        <div class="ques q10">
+          <p>
+            10.
+            <span class="ques10">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w10">Your ans:</small>
+            <small class="correct c10">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q10op1">C#</small>
+              <small class="q10op2">Java</small>
+              <small class="q10op3">Python</small>
+              <small class="q10op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp10"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt10">save</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question----------------------------11 -->
+
+        <div class="ques q11">
+          <p>
+            11.
+            <span class="ques11">What is the best programming language?</span>
+          </p>
+
+          <div class="answers hide">
+            <small class="wrong w11">Your ans:</small>
+            <small class="correct c11">Correct ans:</small>
+          </div>
+
+          <div class="visiblePart">
+            <div class="options">
+              <small class="q11op1">C#</small>
+              <small class="q11op2">Java</small>
+              <small class="q11op3">Python</small>
+              <small class="q11op4">JavaScript</small>
+            </div>
+
+            <div class="userAns">
+              <input
+                type="text"
+                class="userInp11"
+                placeholder="1 or 2 or 3 or 4"
+              />
+              <button class="sbt11">save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Questions-------------------------End -->
+
+      <hr class="sline" />
+
+      <p class="logScore hide">10/11</p>
+      <br /><br /><br />
+      <button class="check hide">Check Ans</button>
+
+      <div class="footer">
+        <small>This app is created by <i>SHYKAT RAHA</i></small>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
